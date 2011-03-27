@@ -1,0 +1,2 @@
+content imgctrl chrome/content/
+overlay chrome://browser/content/browser.xul chrome://imgctrl/content/overlay.xul
