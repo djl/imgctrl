@@ -2,7 +2,7 @@
 <overlay id="imgctrl" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<script type="application/x-javascript" src="chrome://imgctrl/content/imgctrl.js" />
 	<popup id="contentAreaContextMenu">
-		<menuitem id="imgctrl-window" insertafter="context-copyimage" label="Open Image in New Window" oncommand="imgctrl('window');" />
-		<menuitem id="imgctrl-tab" insertafter="context-copyimage" label="Open Image in New Tab" oncommand="imgctrl('tab');" />
+		<menuitem id="imgctrl-window" insertafter="context-copyimage" label="Open Image in New Window" oncommand="imgctrl.go('window');" />
+		<menuitem id="imgctrl-tab" insertafter="context-copyimage" label="Open Image in New Tab" oncommand="imgctrl.go('tab');" />
 	</popup>
 </overlay>
